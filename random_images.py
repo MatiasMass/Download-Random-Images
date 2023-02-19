@@ -34,7 +34,7 @@ def download_random_images(url, directory_name):
 
 url = "https://picsum.photos/v2/list?page=3&limit=100"
 
-directory_name = "images6"
+directory_name = input("Enter a folder name: ")
 create_directory(directory_name)
 
 download_random_images(url, directory_name)
